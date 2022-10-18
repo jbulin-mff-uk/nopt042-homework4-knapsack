@@ -1,2 +1,2 @@
 #!/bin/sh
-picat knapsack.pi -01 data.pi
+./tmp/Picat/picat knapsack.pi -01 data.pi
