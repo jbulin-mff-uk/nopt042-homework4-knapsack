@@ -1,6 +1,11 @@
 import io.
 
-main =>    
+main() =>
+    main([random2()]).
+
+main([Seed]) =>    
+    _ = random(to_int(Seed)),
+    
     NumItems = 15,
     Capacity = 100,
     MinValue = 1,
